@@ -377,6 +377,8 @@ describe UsersController do
         response.should redirect_to(signin_path)
       end
     end
+
+
     
     describe "when signed in" do
       
