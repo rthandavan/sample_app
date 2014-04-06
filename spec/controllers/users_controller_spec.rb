@@ -380,7 +380,7 @@ describe UsersController do
 
 
     
-    describe "when signed in" do
+    describe "when signed in as" do
       
       before(:each) do
         @user = test_sign_in(Factory(:user))
